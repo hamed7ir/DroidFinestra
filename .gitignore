@@ -1,0 +1,31 @@
+# Build output
+bin/
+obj/
+dist/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Runtime data if the exe is run in place (portable mode)
+DroidFinestra.portable
+profiles.json
+settings.json
+logs/
+*.log
+
+# Working notes, batch specifications and reports (as in the -rt repos): they are the
+# development record, not the product source, and they name test devices and paths.
+BATCH-*.md
+reports/
+*-RESULTS.md
+*-REPORT.md
+STATE.md
+RECON.md
+notes/
+CLAUDE.md
+.claude/
+
+# Release notes are written for the GitHub release page, not kept in the tree.
+RELEASE-NOTES*.md
